@@ -1,0 +1,14 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card  title="Truck List">
+            <div style="height: 300px;">
+                <c-salesforce-codex-data-table
+                        key-field="id"
+                        data={truckRecords}
+                        columns={truckColumns}
+                        show-row-number-column="false"
+                        hide-checkbox-column="false">
+                </c-salesforce-codex-data-table>
+            </div>
+    </lightning-card>
+</template>
